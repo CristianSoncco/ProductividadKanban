@@ -1,0 +1,17 @@
+/* src/app/login/login.component.css */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+<!-- src/app/login/login.component.html -->
+<div class="login-container">
+  <h2>Iniciar Sesión</h2>
+  <form (ngSubmit)="login()">
+    <mat-form-field appearance="fill" class="input-field">
+      <mat-label>Email</mat-label>
+      <input matInput [(ngModel)]="email" name="email" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="input-field">
+      <mat-label>Contraseña</mat-label>
+      <input matInput [(ngModel)]="password" type="password" name="password" required />
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Ingresar</button>
+  </form>
+
+  <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+</div>

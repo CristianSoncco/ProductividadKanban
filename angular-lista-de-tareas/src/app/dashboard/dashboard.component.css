@@ -1,0 +1,30 @@
+/* src/app/dashboard/dashboard.component.css */
+.dashboard-container {
+  padding: 20px;
+}
+
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.task-column {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.task-list {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+mat-card {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
